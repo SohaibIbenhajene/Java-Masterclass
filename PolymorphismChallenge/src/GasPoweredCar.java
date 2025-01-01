@@ -1,6 +1,6 @@
 public class GasPoweredCar extends Car {
     private double avgKmPerLitre;
-    private int cylinders;
+    private int cylinders = 6;
 
     public GasPoweredCar(String description) {
         super(description);
